@@ -1,0 +1,313 @@
+My Notes
+Jakub Malášek <jakub.malasek@outlook.cz>
+​
+You
+​
+November 15, 2023, 11:08
+Stav
+Stavový diagram pro informační systém fanoušků dobrého piva by mohl vypadat následovně:
+
+1. **Start:**
+- Začátek systému s ikonou "Uživatel" a "Nový uživatel" jako vstupní bod.
+
+2. **Pivovarství:**
+- Oddělení pro vstup do "Pivovarství" s podsekcemi:
+- "Piva": Zahrnuje informace o názvu, barvě, stylu kvašení, specifikaci typu a obsahu alkoholu.
+- "Suroviny": Zahrnuje slady, chmele a kvasnice s podrobnostmi o jejich vlastnostech.
+- "Certifikace": Pouze certifikované kamenné prodejny mohou dodávat suroviny.
+
+3. **Vaření Piva:**
+- Větev pro "Vaření piva" s informacemi o sládkovi, období vaření a generaci sládka.
+
+4. **Distribuce:**
+- Oddělení pro "Distribuci" s větvemi pro různé formy (pet láhev, skleněná láhev, soudek) a množství distribuované v hospodách a kamenných prodejnách.
+
+5. **Hospody a Pivovary:**
+- Větev "Hospody" a "Pivovary" s informacemi o rámcových smlouvách mezi hospodami a pivovary, ať už jsou zaměstnáni sládky nebo jsou sládci na volné noze.
+
+6. **Uživatelské Interakce:**
+- Sekce "Uživatelské interakce" zahrnující hodnocení hospod, piva, vyhledávání, zaznamenávání úspěchů, sledování oblíbených pivovarů, a certifikovaných sládků.
+
+7. **Certifikovaní Sládci:**
+- Větev pro "Certifikované sládky" s podsekcí pro ověření diplomu a možnost přidávat vlastní recepty do systému.
+
+8. **Konec:**
+- Ukončení s ikonou "Výstup" a "Ukončení programu".
+
+Tento diagram zachycuje hlavní komponenty a interakce v informačním systému pro fanoušky dobrého piva.
+
+November 15, 2023, 11:07
+Komunikace
+Diagram komunikace pro informační systém pro fanoušky dobrého piva by mohl vypadat následovně:
+
+1. **Uživatelé:** Zahrnují běžné fanoušky piva, certifikované sládky a provozovatele hospod.
+
+2. **Interakce s informačním systémem:**
+- **Registrace/Účet:** Uživatelé se registrují a vytvářejí účet s osobními informacemi.
+- **Hodnocení a Recenze:** Uživatelé mohou hodnotit hospody, piva, a sládky a psát recenze.
+- **Vyhledávání:** Možnost vyhledávat piva podle různých kritérií (název, barva, obsah alkoholu, atd.).
+- **Sledování Pivovarů:** Uživatelé mohou sledovat své oblíbené pivovary a dostávat notifikace o nových pivech.
+- **Odebírání Piv v Hospodách:** Možnost sledovat nabídku hospod a odebírat oblíbená piva.
+- **Certifikace Sládků:** Proces získání certifikace sládků s ověřeným diplomem notářem.
+
+3. **Zpracování Dat a Databáze:**
+- **Suroviny a Recepty:** Ukládání informací o surovinách (slady, chmely, kvasnice) a receptech sládků.
+- **Piva a Hospody:** Databáze obsahuje informace o typech piv, jejich dostupnosti v hospodách, formách distribuce a záznamy o hospodách.
+- **Uživatelská Data:** Uchovávání údajů o hodnoceních, recenzích, oblíbených pivech a sledovaných pivovarech.
+
+4. **Sládci a Hospodští:**
+- **Dodávky od Certifikovaných Kamenných Prodejen:** Sládci a hospodští dostávají suroviny pouze od certifikovaných kamenných prodejen.
+- **Rámcové Smlouvy s Pivovary:** Možnost uzavírat smlouvy mezi hospodami a pivovary ohledně dlouhodobého odběru piva s možnými slevami.
+
+5. **Oznamování a Notifikace:**
+- **Nové Pivo od Sledovaných Pivovarů:** Uživatelé dostávají notifikace o nových typech piv od sledovaných pivovarů.
+
+Tímto způsobem je zajištěno propojení mezi uživateli, informačním systémem a aktéry v pivním průmyslu, poskytujíc jim možnost interakce a sdílení informací o světě piva.
+
+November 15, 2023, 11:05
+Sekvence
+Sekvenční diagram může vypadat následovně:
+
+1. **Uživatel** vyhledává pivo v informačním systému.
+2. **Systém** zobrazuje seznam piv odpovídajících uživatelovým kritériím.
+3. **Uživatel** vybírá konkrétní pivo a získává detailní informace.
+4. **Systém** zobrazuje sladoviny, chmely a kvasnice použité při vaření tohoto piva.
+5. **Uživatel** hodnotí pivo a zaznamenává své oblíbené hospody.
+6. **Systém** eviduje uživatelovy preference a nabízí podobná piva.
+7. **Uživatel** sleduje novinky od svého oblíbeného pivovaru.
+8. **Systém** informuje uživatele o nových pivech od jejich preferovaných pivovarů.
+9. **Uživatel** se rozhodne stát certifikovaným sládkem.
+10. **Systém** ověřuje sládecký diplom a umožňuje uživateli přidávat vlastní recepty do systému.
+
+Toto je zjednodušený pohled na sekvenční diagram, který zachycuje interakce mezi uživatelem a informačním systémem pro fanoušky dobrého piva.
+
+November 15, 2023, 11:04
+Class Dia
+Zde je jednoduchý popis tříd v jazyce Python, který reprezentuje strukturu informačního systému pro fanoušky piva:
+
+```python
+class FanouskyPiva:
+def __init__(self):
+self.uzivatele = []
+self.hodnoceni = []
+self.oblibene_hospody = []
+self.sledovane_pivovary = []
+self.uspechy = []
+self.certifikovani_sladci = []
+
+class Pivo:
+def __init__(self, nazev, barva, styl_kvaseni, specifikace_typu, obsah_alkoholu, sladek, suroviny, forma_distribuce, mnozstvi_dostupne, kamenna_prodejna):
+self.nazev = nazev
+self.barva = barva
+self.styl_kvaseni = styl_kvaseni
+self.specifikace_typu = specifikace_typu
+self.obsah_alkoholu = obsah_alkoholu
+self.sladek = sladek
+self.suroviny = suroviny
+self.forma_distribuce = forma_distribuce
+self.mnozstvi_dostupne = mnozstvi_dostupne
+self.kamenna_prodejna = kamenna_prodejna
+
+class Sladek:
+def __init__(self, generace_sladka, zamestnani, diplom):
+self.generace_sladka = generace_sladka
+self.zamestnani = zamestnani
+self.diplom = diplom
+
+class CertifikovaniSladci:
+def __init__(self, overeny_diplom, vlastni_recepty, amaterska_distribuce):
+self.overeny_diplom = overeny_diplom
+self.vlastni_recepty = vlastni_recepty
+self.amaterska_distribuce = amaterska_distribuce
+
+class Hospoda:
+def __init__(self, nazev, misto, smlouva, mnozstvi):
+self.nazev = nazev
+self.misto = misto
+self.smlouva = smlouva
+self.mnozstvi = mnozstvi
+
+class Pivovar:
+def __init__(self, znacka, sladci, pivovarska_smlouva, novinky):
+self.znacka = znacka
+self.sladci = sladci
+self.pivovarska_smlouva = pivovarska_smlouva
+self.novinky = novinky
+
+class Distribuce:
+def __init__(self, forma, mnozstvi, kamenna_prodejna, hospoda):
+self.forma = forma
+self.mnozstvi = mnozstvi
+self.kamenna_prodejna = kamenna_prodejna
+self.hospoda = hospoda
+
+class Uzivatel:
+def __init__(self, jmeno, email, certifikovany_sladek):
+self.jmeno = jmeno
+self.email = email
+self.certifikovany_sladek = certifikovany_sladek
+```
+
+Tento kód vytváří třídy reprezentující jednotlivé entity v informačním systému a jejich vzájemné vztahy.
+
+November 15, 2023, 10:58
+ERD
+```
+class Pivo {
+ID_piva
+Název
+Barva
+Styl kvašení
+Specifikace
+Alkohol obsah
+}
+
+class Sládek {
+ID_sládka
+Jméno
+Certifikát
+}
+
+class Hospoda {
+ID_hospody
+Název
+Lokace
+Smlouva
+}
+
+class Surovina {
+ID_suroviny
+Typ
+Barva
+Původ
+Extrakt
+}
+
+class Distribuce {
+ID_distribuce
+Typ
+Množství
+}
+
+class Pivovar {
+ID_pivovaru
+Značka
+Generace
+}
+
+class Uživatel {
+ID_uživatele
+Jméno
+Povýšený
+}
+
+Pivo "1" -- "n" Sládek : vaří
+Sládek "1" -- "n" Hospoda : spojen s
+Surovina "1" -- "n" Distribuce : součástí
+Pivovar "1" -- "n" Pivo : vaří
+Uživatel "1" -- "n" Hospoda : hodnotí
+```
+
+Tento diagram reprezentuje vztahy mezi entitami a ilustruje, jakým způsobem jsou propojeny.
+
+November 15, 2023, 10:56
+ERD
+ER diagram pro informační systém fanoušků dobrého piva obsahuje několik klíčových entit a vztahů. Zde je slovní popis:
+
+1. **Pivo:**
+- Entita reprezentující jednotlivá piva.
+- Obsahuje atributy jako ID_piva, Název, Barva, Styl kvašení, Specifikace, Alkohol obsah.
+
+2. **Sládek:**
+- Entita reprezentující sládky, kteří vaří piva.
+- Obsahuje atributy jako ID_sládka, Jméno, Certifikát.
+
+3. **Hospoda:**
+- Entita reprezentující hospody, kde je možné piva konzumovat.
+- Obsahuje atributy jako ID_hospody, Název, Lokace, Smlouva.
+
+4. **Surovina:**
+- Entita reprezentující suroviny používané při vaření piva.
+- Obsahuje atributy jako ID_suroviny, Typ, Barva, Původ, Extrakt.
+
+5. **Distribuce:**
+- Entita reprezentující různé formy distribuce uvařených piv.
+- Obsahuje atributy jako ID_distribuce, Typ, Množství.
+
+6. **Pivovar:**
+- Entita reprezentující pivovary, které vaří piva.
+- Obsahuje atributy jako ID_pivovaru, Značka, Generace.
+
+7. **Uživatel:**
+- Entita reprezentující běžné uživatele a certifikované sládky.
+- Obsahuje atributy jako ID_uživatele, Jméno, Povýšený.
+
+Vztahy:
+- Pivo a Sládek mají vztah "1 až n", protože jedno pivo může být vařeno více sládky.
+- Sládek a Hospoda mají vztah "1 až n", protože jeden sládek může být spojen s několika hospodami.
+- Surovina a Distribuce mají vztah "1 až n", protože jedna surovina může být součástí několika distribucí.
+- Pivovar a Pivo mají vztah "1 až n", protože jeden pivovar může vařit více druhů piva.
+- Uživatel může mít vztah "1 až n" s Hospodou, což značí, že jeden uživatel může hodnotit více hospod.
+
+Tento diagram poskytuje strukturu pro návrh databáze, která by podporovala funkcionalitu informačního systému pro fanoušky dobrého piva.
+
+November 15, 2023, 10:54
+IUS 2 usecase
+Use Case Diagram pro informační systém pro fanoušky dobrého piva:
+
+```plaintext
+[Informační Systém pro Fanoušky Dobrého Piva]
+
+<<Actor>> <<Use Case>>
+-------------- ------------------------------
+Certifikovaný Sládek - Přidat vlastní recept
+Běžný Uživatel - Hodnotit hospody
+- Hodnotit piva
+- Vyhledávat podobná piva
+- Zaznamenat množství vypitého piva
+- Sledovat oblíbené pivovary
+- Odebírat novinky od oblíbených pivovarů
+
+<<Extends>>
+--------------
+Certifikovaný Sládek - Přidat pokus při vaření piva
+Běžný Uživatel - Povýšení na certifikovaného sládka
+
+<<Include>>
+--------------
+Certifikovaný Sládek - Prohlížet recepty
+Běžný Uživatel - Prohlížet oblíbené hospody
+- Prohlížet detaily piva
+```
+
+V tomto diagramu jsou uvedeni aktéři a hlavní uživatelské případy pro informační systém pro fanoušky dobrého piva.
+
+November 15, 2023, 10:52
+IUS 2 obec
+Pro vytvoření informačního systému pro fanoušky piva bychom mohli navrhnout následující strukturu:
+
+1. **Databáze Pivovarů:**
+- Seznam pivovarů s informacemi o jejich historii, značkách a sládcích.
+
+2. **Databáze Piv:**
+- Každé pivo by mělo obsahovat název, barvu, styl kvašení, bližší specifikaci typu, obsah alkoholu a seznam použitých surovin.
+
+3. **Suroviny:**
+- Databáze sladů, chmelů a kvasnic s detaily o barvě, původu, a dalších relevantních vlastnostech.
+
+4. **Distribuční Formy:**
+- Možnosti distribuce jako pet láhev, skleněná láhev, soudek atd., s informacemi o dostupných množstvích.
+
+5. **Sládci:**
+- Profily sládků s informacemi o jejich zkušenostech, specializaci a generaci.
+
+6. **Hospody:**
+- Seznam hospod s hodnoceními, kde lze dané pivo zakoupit, a informace o rámcových smlouvách s pivovary.
+
+7. **Uživatelské Profily:**
+- Registrovaní uživatelé by měli možnost hodnotit hospody, piva, sledovat své oblíbené pivovary, zaznamenávat své úspěchy a vyhledávat podobná piva.
+
+8. **Certifikovaní Sládci:**
+- Uživatelé s ověřeným sládkovským diplomem mohou přispívat vlastními recepty a pokusy při vaření piva.
+
+Systém by měl také umožňovat správu rámcových smluv, zasílání novinek od pivovarů a sledování událostí spojených s novými piva od oblíbených sládků.
