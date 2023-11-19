@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3fsTWa04-VPi2OxSYWGI" name="Page-1">
-        <mxGraphModel dx="2058" dy="1979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1756" dy="1759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,20 +40,17 @@
                 <mxCell id="8" value="Získávat novinky" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-130" y="15" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Přidávat recepty" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="9" value="Přidat pokus" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="-70" width="90" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="Certifikace sládků" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="325" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Přidat recept" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="650" y="100" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Distribuce piv" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="325" width="90" height="50" as="geometry"/>
+                    <mxGeometry x="-130" y="320" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="Smlouva s pivovary" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-130" y="170" width="90" height="50" as="geometry"/>
+                    <mxGeometry x="-130" y="145" width="90" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" style="edgeStyle=none;html=1;" parent="1" source="14" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -81,16 +78,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Hospoda" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="165" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="20" y="140" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;" parent="1" source="16" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;" parent="1" source="39" target="10" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="16" value="Pivovar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-                    <mxGeometry x="20" y="320" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="30" y="315" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="Hodnotit piva" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="120" y="-120" width="90" height="50" as="geometry"/>
@@ -98,67 +92,62 @@
                 <mxCell id="37" value="Distribuce amatérské distribuce" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="650" y="10" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="Notář" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="320" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="50">
+                <mxCell id="51" style="edgeStyle=none;html=1;" parent="1" source="40" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="52">
+                <mxCell id="53" style="edgeStyle=none;html=1;" parent="1" source="40" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Uživatel systému" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="270" y="140" width="30" height="60" as="geometry"/>
+                <mxCell id="40" value="Uživatel systému" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="140" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="40">
+                <mxCell id="42" style="edgeStyle=none;html=1;" parent="1" source="2" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="160" y="190" as="sourcePoint"/>
                         <mxPoint x="170" y="52.14285714285711" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42">
+                <mxCell id="43" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42" vertex="1" connectable="0">
                     <mxGeometry x="0.1387" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="40">
+                <mxCell id="44" style="edgeStyle=none;html=1;" parent="1" source="15" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="170" y="70" as="sourcePoint"/>
                         <mxPoint x="260" y="190" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="45" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+                <mxCell id="45" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
                     <mxGeometry x="0.1387" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="40">
+                <mxCell id="46" style="edgeStyle=none;html=1;" parent="1" source="16" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="180" y="80" as="sourcePoint"/>
                         <mxPoint x="270" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="47" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="46">
+                <mxCell id="47" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="46" vertex="1" connectable="0">
                     <mxGeometry x="0.1387" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" style="edgeStyle=none;html=1;" edge="1" parent="1" source="39" target="40">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="190" y="90" as="sourcePoint"/>
-                        <mxPoint x="280" y="210" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="49" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="48">
-                    <mxGeometry x="0.1387" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="50" value="Registrovat se" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="50" value="Registrovat se" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="430" y="120" width="90" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="Přihlásit se" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="52" value="Přihlásit se" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="430" y="180" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Správce" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="410" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Povýšení uživatele na sládka" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="415" width="90" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
