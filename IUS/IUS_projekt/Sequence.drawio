@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="44_AYquJx9-wfTojZkKx" name="Regidter">
-        <mxGraphModel dx="755" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1173" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry x="260" y="110" width="100" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="Rr8X4nUvoQriHaWk_6bX-1" vertex="1">
-                    <mxGeometry x="45" y="90" width="10" height="190" as="geometry"/>
+                    <mxGeometry x="45" y="100" width="10" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-3" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;startArrow=none;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -26,7 +26,7 @@
                         <mxPoint x="-19" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Rr8X4nUvoQriHaWk_6bX-6" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                <mxCell id="Rr8X4nUvoQriHaWk_6bX-6" value="Uživatel systému" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="85" y="60" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-7" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="Rr8X4nUvoQriHaWk_6bX-6" target="Rr8X4nUvoQriHaWk_6bX-8" edge="1">
@@ -36,7 +36,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="1" vertex="1">
-                    <mxGeometry x="95" y="200" width="10" height="190" as="geometry"/>
+                    <mxGeometry x="95" y="200" width="10" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-9" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;" parent="1" source="Rr8X4nUvoQriHaWk_6bX-8" target="Rr8X4nUvoQriHaWk_6bX-1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -70,7 +70,7 @@
                     <mxGeometry x="450" y="110" width="100" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="Rr8X4nUvoQriHaWk_6bX-13" vertex="1">
-                    <mxGeometry x="45" y="200" width="10" height="70" as="geometry"/>
+                    <mxGeometry x="45" y="200" width="10" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="Rr8X4nUvoQriHaWk_6bX-15" value="" style="endArrow=classic;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;" parent="1" source="Rr8X4nUvoQriHaWk_6bX-2" target="Rr8X4nUvoQriHaWk_6bX-14" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -83,7 +83,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Rr8X4nUvoQriHaWk_6bX-19" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=-0.133;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rr8X4nUvoQriHaWk_6bX-2" target="Rr8X4nUvoQriHaWk_6bX-8" edge="1">
+                <mxCell id="Rr8X4nUvoQriHaWk_6bX-19" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=-0.2;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Rr8X4nUvoQriHaWk_6bX-2" target="Rr8X4nUvoQriHaWk_6bX-8" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="150" y="470" as="sourcePoint"/>
                         <mxPoint x="310" y="470" as="targetPoint"/>
@@ -130,11 +130,14 @@
                 <mxCell id="ZRMiWKFHSUHRmXDStjw9-4" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="YNDf2lSTC-QX9FU3GZre-1" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="250" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="hnM4MO9B7-LqkQS96tMG" name="LogIn">
-        <mxGraphModel dx="824" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -286,11 +289,14 @@
                 <mxCell id="KnxJTpsNYGYQV_BEPomF-50" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="MVFebWc3j2ag-fQR2IlQ-43" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="250" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="i8bzW8e9rmMcWS-xgHHl" name="LogOut">
-        <mxGraphModel dx="824" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -375,7 +381,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="swP_yoI31Gehk3JrXV17" name="Hodnocení">
-        <mxGraphModel dx="1007" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1020" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -451,7 +457,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="fQfXp4E1EGzkkTGKsm5c-15" value="UML:Hospoda&amp;nbsp;/&lt;br&gt;&amp;nbsp;Pivovar /&lt;br&gt;&amp;nbsp;Pivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="fQfXp4E1EGzkkTGKsm5c-15" value="P1:Hospoda&amp;nbsp;/&lt;br&gt;&amp;nbsp;Pivovar /&lt;br&gt;&amp;nbsp;Pivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="410" y="110" width="130" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="fQfXp4E1EGzkkTGKsm5c-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="fQfXp4E1EGzkkTGKsm5c-15" vertex="1">
@@ -521,7 +527,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ZzdJj63BwEgutDdCXDbc" name="Vyhledání piv">
-        <mxGraphModel dx="906" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="902" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -530,6 +536,21 @@
                 </mxCell>
                 <mxCell id="siOvGlpwqrieyNlmzPys-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="siOvGlpwqrieyNlmzPys-1" vertex="1">
                     <mxGeometry x="45" y="90" width="10" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="siOvGlpwqrieyNlmzPys-22" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=1;entryX=1.14;entryY=0.195;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=1.087;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" parent="siOvGlpwqrieyNlmzPys-1" source="siOvGlpwqrieyNlmzPys-2" target="siOvGlpwqrieyNlmzPys-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="209.5" y="208.67999999999995" as="targetPoint"/>
+                        <mxPoint x="64.92000000000007" y="208.67999999999995" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="110"/>
+                            <mxPoint x="110" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="siOvGlpwqrieyNlmzPys-23" value="Vyhledávání" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="siOvGlpwqrieyNlmzPys-22" vertex="1" connectable="0">
+                    <mxGeometry x="0.14" y="-1" relative="1" as="geometry">
+                        <mxPoint x="41" y="-9" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="siOvGlpwqrieyNlmzPys-3" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;startArrow=none;" parent="1" source="siOvGlpwqrieyNlmzPys-8" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -600,47 +621,19 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-15" value="UML:Pivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="110" width="100" height="390" as="geometry"/>
-                </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="siOvGlpwqrieyNlmzPys-15" vertex="1">
-                    <mxGeometry x="45" y="100" width="10" height="50" as="geometry"/>
+                <mxCell id="siOvGlpwqrieyNlmzPys-15" value=":Pivo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="100" width="100" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="siOvGlpwqrieyNlmzPys-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="siOvGlpwqrieyNlmzPys-15" vertex="1">
-                    <mxGeometry x="45" y="190" width="10" height="50" as="geometry"/>
+                    <mxGeometry x="45" y="200" width="10" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-22" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" parent="1" source="siOvGlpwqrieyNlmzPys-2" target="siOvGlpwqrieyNlmzPys-15" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="469.5" y="318.67999999999995" as="targetPoint"/>
-                        <mxPoint x="324.9200000000001" y="318.67999999999995" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="390" y="220"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-23" value="Předání názvu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="siOvGlpwqrieyNlmzPys-22" vertex="1" connectable="0">
-                    <mxGeometry x="0.14" y="-1" relative="1" as="geometry">
-                        <mxPoint x="-17" y="-1" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-24" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" parent="1" source="siOvGlpwqrieyNlmzPys-15" target="siOvGlpwqrieyNlmzPys-2" edge="1">
-                    <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="465" y="380" as="sourcePoint"/>
-                        <mxPoint x="319.5" y="380" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="390" y="240"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-25" value="Výpis možných&lt;br&gt;piv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="siOvGlpwqrieyNlmzPys-24" vertex="1" connectable="0">
-                    <mxGeometry x="0.1342" y="2" relative="1" as="geometry">
-                        <mxPoint x="3" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="siOvGlpwqrieyNlmzPys-31" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" parent="1" source="siOvGlpwqrieyNlmzPys-1" target="siOvGlpwqrieyNlmzPys-15" edge="1">
+                <mxCell id="siOvGlpwqrieyNlmzPys-31" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" parent="1" source="siOvGlpwqrieyNlmzPys-2" target="siOvGlpwqrieyNlmzPys-15" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="315" y="305" as="targetPoint"/>
-                        <mxPoint x="115" y="305" as="sourcePoint"/>
+                        <mxPoint x="480" y="310" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="300"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="siOvGlpwqrieyNlmzPys-32" value="Žádosr o informace" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="siOvGlpwqrieyNlmzPys-31" vertex="1" connectable="0">
@@ -651,9 +644,9 @@
                 <mxCell id="siOvGlpwqrieyNlmzPys-33" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" parent="1" source="siOvGlpwqrieyNlmzPys-15" target="siOvGlpwqrieyNlmzPys-2" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="469.5" y="250" as="sourcePoint"/>
-                        <mxPoint x="325" y="250" as="targetPoint"/>
+                        <mxPoint x="510" y="340" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="400" y="340"/>
+                            <mxPoint x="490" y="330"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -677,11 +670,14 @@
                 <mxCell id="KxofexzvHHS4peCsFy4g-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="DLr5kYIJrJ_VyzT81xOh-1" value="TODO&lt;br&gt;loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="290" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="8pLFpkVjH4x7ZgDXbWTy" name="Získáni novinek">
-        <mxGraphModel dx="906" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="978" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -745,7 +741,7 @@
                         <mxPoint x="-12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BphKyehS28qhF4PPMsUY-15" value="UML:Pivovar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="BphKyehS28qhF4PPMsUY-15" value="P1:Pivovar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="410" y="110" width="100" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="BphKyehS28qhF4PPMsUY-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="BphKyehS28qhF4PPMsUY-15" vertex="1">
@@ -786,11 +782,14 @@
                 <mxCell id="1BM10Eqb3wjNwmSKUinh-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="FFW5UYmnNcujQAN8lH9K-3" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="360" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="9Qnsp567s6wST1gKts8n" name="Zaznamenání úspěchu">
-        <mxGraphModel dx="906" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1173" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -915,11 +914,14 @@
                 <mxCell id="5htCmcFw8w1hJviu_htl-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="XVoYWfZ-emX83hFUtSUu-1" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="250" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="hf9SLyKFs58ReKPN8_3w" name="Sledování pivovarů">
-        <mxGraphModel dx="1133" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="902" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -986,7 +988,7 @@
                         <mxPoint x="-12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40ysC9_p8S1rfXjBXiwP-12" value="UML:Pivovar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="40ysC9_p8S1rfXjBXiwP-12" value="P1:Pivovar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="410" y="110" width="100" height="330" as="geometry"/>
                 </mxCell>
                 <mxCell id="40ysC9_p8S1rfXjBXiwP-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="40ysC9_p8S1rfXjBXiwP-12" vertex="1">
@@ -1024,7 +1026,7 @@
                 <mxCell id="40ysC9_p8S1rfXjBXiwP-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" parent="1" vertex="1">
                     <mxGeometry x="95" y="370" width="10" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="40ysC9_p8S1rfXjBXiwP-23" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" parent="1" source="40ysC9_p8S1rfXjBXiwP-18" target="40ysC9_p8S1rfXjBXiwP-19" edge="1">
+                <mxCell id="40ysC9_p8S1rfXjBXiwP-23" value="" style="endArrow=block;startArrow=none;endFill=1;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;" parent="1" source="40ysC9_p8S1rfXjBXiwP-18" target="40ysC9_p8S1rfXjBXiwP-19" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="469.5" y="350" as="sourcePoint"/>
                         <mxPoint x="319.5" y="350" as="targetPoint"/>
@@ -1036,7 +1038,7 @@
                         <mxPoint x="6" y="-2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="IzQd0sXvF3b4J272NHgQ-4" value="" style="endArrow=none;startArrow=block;endFill=0;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;dashed=1;" edge="1" parent="1" source="40ysC9_p8S1rfXjBXiwP-18" target="40ysC9_p8S1rfXjBXiwP-17">
+                <mxCell id="IzQd0sXvF3b4J272NHgQ-4" value="" style="endArrow=none;startArrow=block;endFill=0;startFill=1;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;" edge="1" parent="1" source="40ysC9_p8S1rfXjBXiwP-18" target="40ysC9_p8S1rfXjBXiwP-17">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="319.5" y="240" as="sourcePoint"/>
                         <mxPoint x="469.5" y="240" as="targetPoint"/>
@@ -1065,11 +1067,14 @@
                 <mxCell id="dzKuqvEtDU1BP-WAavMs-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="5u6SQyZnOhvprm2GhIzq-1" value="TODO&lt;br&gt;if sleduje" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="250" width="70" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="YHcWz6UwAbgIYCx97CsZ" name="Smlouva">
-        <mxGraphModel dx="906" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="902" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1102,7 +1107,7 @@
                         <mxPoint x="100" y="500" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3sH9k5ce4mgdjahhskYT-6" value="Hospoda" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                <mxCell id="3sH9k5ce4mgdjahhskYT-6" value="H1:Hospoda" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="82.5" y="60" width="35" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3sH9k5ce4mgdjahhskYT-7" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="3sH9k5ce4mgdjahhskYT-6" target="3sH9k5ce4mgdjahhskYT-8" edge="1">
@@ -1189,10 +1194,10 @@
                         <mxPoint x="507.5" y="86.68000000000004" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3sH9k5ce4mgdjahhskYT-22" value="Pivovar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                <mxCell id="3sH9k5ce4mgdjahhskYT-22" value="P1:Pivovar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="58.34" width="35" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3sH9k5ce4mgdjahhskYT-33" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;dashed=1;" parent="1" source="3sH9k5ce4mgdjahhskYT-20" target="3sH9k5ce4mgdjahhskYT-32" edge="1">
+                <mxCell id="3sH9k5ce4mgdjahhskYT-33" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;" parent="1" source="3sH9k5ce4mgdjahhskYT-20" target="3sH9k5ce4mgdjahhskYT-32" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="315" y="260" as="sourcePoint"/>
                         <mxPoint x="115" y="260" as="targetPoint"/>
@@ -1243,7 +1248,7 @@
                         <mxPoint x="15" y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3sH9k5ce4mgdjahhskYT-41" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" parent="1" source="3sH9k5ce4mgdjahhskYT-32" target="3sH9k5ce4mgdjahhskYT-20" edge="1">
+                <mxCell id="3sH9k5ce4mgdjahhskYT-41" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;dashed=1;" parent="1" source="3sH9k5ce4mgdjahhskYT-32" target="3sH9k5ce4mgdjahhskYT-20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="512.5" y="230" as="targetPoint"/>
                         <mxPoint x="325" y="230" as="sourcePoint"/>
@@ -1257,7 +1262,7 @@
                         <mxPoint x="-19" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="MSYn3I0OQ0Jp5M1g7i9B-3" value="UML:Rámcová smlouva" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="MSYn3I0OQ0Jp5M1g7i9B-3" value="R1:Rámcová smlouva" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
                     <mxGeometry x="630" y="110" width="100" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="MSYn3I0OQ0Jp5M1g7i9B-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="MSYn3I0OQ0Jp5M1g7i9B-3">
@@ -1284,11 +1289,14 @@
                 <mxCell id="HKDp6sfUSmnyVl-Bo0Bc-1" value="Pivovar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="332.5" y="710" width="35" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="eTrHFGDCcKPwPt5ideQ1-1" value="TODO&lt;br&gt;if zamítnuto" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="390" width="80" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="PCud-ayL2MFWRPcq0g3H" name="Distribuce">
-        <mxGraphModel dx="906" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1117" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1313,7 +1321,7 @@
                         <mxPoint x="-19" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="PgCqcrgsJyzj9dV8oPcG-6" value="&lt;b&gt;Pivovar / Certifikovaný sládek&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                <mxCell id="PgCqcrgsJyzj9dV8oPcG-6" value="&lt;b&gt;P1:Pivovar / Certifikovaný sládek&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="85" y="60" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="PgCqcrgsJyzj9dV8oPcG-7" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="PgCqcrgsJyzj9dV8oPcG-6" target="PgCqcrgsJyzj9dV8oPcG-8" edge="1">
@@ -1378,7 +1386,7 @@
                         <mxPoint x="-17" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="sN7i4YOes9KGVXCBU708-3" value="UML:Distribuce" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="sN7i4YOes9KGVXCBU708-3" value="D1:Distribuce" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
                     <mxGeometry x="425" y="110" width="100" height="390" as="geometry"/>
                 </mxCell>
                 <mxCell id="sN7i4YOes9KGVXCBU708-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#808080;" vertex="1" parent="sN7i4YOes9KGVXCBU708-3">
@@ -1399,11 +1407,14 @@
                 <mxCell id="Df-vYKMPSLBsHbFM1TMc-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="8XiRJmHWnoB3K2Lu2p_S-1" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="250" width="60" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="d-QDuG60sXLcZ_NfzWi-" name="Zveřejnit">
-        <mxGraphModel dx="954" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1235" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1493,7 +1504,7 @@
                         <mxPoint x="-17" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="COcmrMrHuKWdMcnaybcX-20" value="Certifikovaný sládek" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                <mxCell id="COcmrMrHuKWdMcnaybcX-20" value="P1:Pivovar / Certifikovaný sládek" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="85" y="80" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="S41otgyf2VoeIm_5zRu9-1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="S41otgyf2VoeIm_5zRu9-3" target="S41otgyf2VoeIm_5zRu9-4">
@@ -1511,6 +1522,17 @@
                 <mxCell id="S41otgyf2VoeIm_5zRu9-7" value="Uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="85" y="550" width="30" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="TIxAkrfwtEUzlaDGjyJ5-1" value="TODO&lt;br&gt;if false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="250" width="60" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="JoWuU3-EKFbbPuZXW8qq" name="Uznani certifikatu">
+        <mxGraphModel dx="1173" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
             </root>
         </mxGraphModel>
     </diagram>
