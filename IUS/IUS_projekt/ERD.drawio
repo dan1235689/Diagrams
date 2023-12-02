@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OPkXVf-FbFQ3euxOE_kb" name="Page-1">
-        <mxGraphModel dx="1647" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="788" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -47,7 +47,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Pivo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="660" y="170" width="210" height="170" as="geometry"/>
+                    <mxGeometry x="660" y="170" width="210" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="112" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="2" vertex="1">
                     <mxGeometry y="30" width="210" height="30" as="geometry"/>
@@ -65,8 +65,8 @@
                         <mxRectangle width="180" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Jméno&#10;Recept&#10;Barva&#10;Typ&#10;Obsah alkoholu&#10;Období vaření&#10;Hodnocení" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="2" vertex="1">
-                    <mxGeometry y="60" width="210" height="110" as="geometry"/>
+                <mxCell id="3" value="Název&#10;Popis&#10;Barva&#10;Typ&#10;Obsah alkoholu&#10;Období vaření&#10;Recept&#10;Hodnocení" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="2" vertex="1">
+                    <mxGeometry y="60" width="210" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" style="edgeStyle=none;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -398,7 +398,7 @@
                         <mxRectangle width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="79" value="Jméno&#10;Hodnocení" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="78" vertex="1">
+                <mxCell id="79" value="Název&#10;Hodnocení" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="78" vertex="1">
                     <mxGeometry y="60" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="89" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="181" edge="1">
@@ -565,7 +565,7 @@
                         <mxRectangle width="130" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="145" value="Jméno&#10;Přihlašovací údaje&#10;Úspěchy&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="144" vertex="1">
+                <mxCell id="145" value="Jméno&#10;Kontaktní údaje&#10;Úspěchy&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="144" vertex="1">
                     <mxGeometry y="60" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="154" style="edgeStyle=none;html=1;" parent="1" source="144" target="51" edge="1">
