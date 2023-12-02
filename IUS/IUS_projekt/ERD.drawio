@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OPkXVf-FbFQ3euxOE_kb" name="Page-1">
-        <mxGraphModel dx="788" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1394" dy="2114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -632,7 +632,7 @@
                     <mxGeometry x="760" y="-390" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="gMAwUeZhpP_PN1SICFYH-194" value="Certifikát" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="900" y="350" width="238" height="164" as="geometry"/>
+                    <mxGeometry x="900" y="350" width="238" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="175" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;" parent="gMAwUeZhpP_PN1SICFYH-194" vertex="1">
                     <mxGeometry y="50" width="238" height="30" as="geometry"/>
@@ -650,8 +650,8 @@
                         <mxRectangle width="208" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="gMAwUeZhpP_PN1SICFYH-195" value="&lt;span style=&quot;pointer-events: none;&quot;&gt;Sériové číslo&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;pointer-events: none;&quot;&gt;Datum počátku a konce platnosti certifikátu&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;pointer-events: none;&quot;&gt;Identifikační údaje subjektu&lt;/span&gt;&lt;br&gt;Veřejný klíč&lt;br&gt;Identifikační údaje subjektu" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gMAwUeZhpP_PN1SICFYH-194" vertex="1">
-                    <mxGeometry y="80" width="238" height="84" as="geometry"/>
+                <mxCell id="gMAwUeZhpP_PN1SICFYH-195" value="&lt;span style=&quot;pointer-events: none;&quot;&gt;Sériové číslo&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;pointer-events: none;&quot;&gt;Datum počátku a konce platnosti certifikátu&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;pointer-events: none;&quot;&gt;Identifikační údaje subjektů&lt;/span&gt;&lt;br&gt;Veřejný klíč&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="gMAwUeZhpP_PN1SICFYH-194" vertex="1">
+                    <mxGeometry y="80" width="238" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="190" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Entity Relation diagram:&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="320" y="-370" width="300" height="40" as="geometry"/>
