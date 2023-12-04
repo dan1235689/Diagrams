@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-12-03T21:46:11.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" version="22.1.2" etag="Y4x6MyOoLzPn8iHihru6" type="device">
+<mxfile host="Electron" modified="2023-12-03T22:27:48.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="muI87et5qp6dozO31Szg" version="22.1.2" type="device">
   <diagram id="3fsTWa04-VPi2OxSYWGI" name="Page-1">
-    <mxGraphModel dx="2573" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2190" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,9 +25,10 @@
         <mxCell id="2" value="Běžný uživatel" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-431" y="295" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="62" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" parent="1" source="3" target="59" edge="1">
+        <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;curved=1;" parent="1" source="3" target="59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-716" y="150" />
               <mxPoint x="-616" y="150" />
             </Array>
           </mxGeometry>
@@ -60,10 +61,11 @@
         <mxCell id="11" value="Přidat recept" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-121" y="440" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="87" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" parent="1" source="12" target="9" edge="1">
+        <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;curved=1;" parent="1" source="12" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-161" y="465" />
+              <mxPoint x="-160" y="525" />
+              <mxPoint x="-160" y="465" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -97,9 +99,10 @@
         <mxCell id="16" value="Pivovar" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-271" y="605" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="61" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" parent="1" source="35" target="59" edge="1">
+        <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;curved=1;" parent="1" source="35" target="59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-516" y="150" />
               <mxPoint x="-616" y="150" />
             </Array>
           </mxGeometry>
@@ -121,7 +124,7 @@
             <mxPoint x="-320" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Grtpyr-HxwBIv9_kDps3-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="40" target="Grtpyr-HxwBIv9_kDps3-93">
+        <mxCell id="Grtpyr-HxwBIv9_kDps3-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40" target="Grtpyr-HxwBIv9_kDps3-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="40" value="Nástěvník&lt;br/&gt;systému" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
@@ -176,10 +179,11 @@
         <mxCell id="59" value="Hodnotit" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-661" y="170" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="66" style="edgeStyle=none;html=1;endArrow=block;endFill=0;" parent="1" source="64" target="9" edge="1">
+        <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=0;curved=1;" parent="1" source="64" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-161" y="465" />
+              <mxPoint x="-160" y="405" />
+              <mxPoint x="-160" y="465" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -192,8 +196,8 @@
         <mxCell id="70" value="Úprava systému" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-811" y="910" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="72" value="Žádost o&lt;br&gt;uznání certifikátu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-461" y="170" width="90" height="50" as="geometry" />
+        <mxCell id="72" value="Certifikát" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="170" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="76" value="Přidání správce" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-811" y="820" width="90" height="50" as="geometry" />
@@ -207,20 +211,20 @@
         <mxCell id="82" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;UseCase diagram:&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-820" y="20" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="85" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="83" target="7" edge="1">
+        <mxCell id="85" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;curved=1;endArrow=block;endFill=0;" parent="1" source="83" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-711" y="370" />
+              <mxPoint x="-716" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="83" value="Sledovat pivovary" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-701" y="370" width="90" height="50" as="geometry" />
+          <mxGeometry x="-711" y="370" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="86" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="84" target="7" edge="1">
+        <mxCell id="86" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;endArrow=block;endFill=0;" parent="1" source="84" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-711" y="370" />
+              <mxPoint x="-716" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -236,8 +240,20 @@
         <mxCell id="91" value="Upravit nabídku&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-330" y="980" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Grtpyr-HxwBIv9_kDps3-93" value="Zrušit registraci" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Grtpyr-HxwBIv9_kDps3-93" value="Zrušit registraci" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-811" y="665" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBLDvaqqIHFMr7g9Jk6j-96" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;endFill=0;" edge="1" parent="1" source="oBLDvaqqIHFMr7g9Jk6j-93" target="72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBLDvaqqIHFMr7g9Jk6j-93" value="Žádost o&lt;br&gt;uznání certifikátu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-461" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oBLDvaqqIHFMr7g9Jk6j-95" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;endArrow=block;endFill=0;" edge="1" parent="1" source="oBLDvaqqIHFMr7g9Jk6j-94" target="72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oBLDvaqqIHFMr7g9Jk6j-94" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Zrušení žádoti o uznání certifikátu&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="80" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
